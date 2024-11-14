@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pearlworth Foundation School</title>
+        <link rel="stylesheet" href="/css/resources.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="/images/logo.svg" type="image/svg+xml">
+    </head>
+<body>
+    <%- include('partials/header') %>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-buttons">
+                <a href="#upcoming-events" class="hero-button">Upcoming Events</a>
+                <a href="#calendar" class="hero-buttonn">School Calendar</a>
+                <a href="#announcements" class="hero-button">Announcements</a>
+                <a href="#school-circular" class="hero-buttonn">End of Term Circular</a>
+                <a href="#medical-form" class="hero-button">Medical Form</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="upcoming-events" class="upcoming-events">
+        <div class="container">
+            <h2 class="section-title">Upcoming Events</h2>
+            <div class="events-list">
+                <div class="event-item">
+                    <div class="event-image">
+                        <img src="/images/football.svg" alt="Annual Sports Day">
+                    </div>
+                    <div class="event-content">
+                        <div class="event-date">
+                            <span class="day">15</span>
+                            <span class="month">May</span>
+                        </div>
+                        <h3>Annual Sports Day</h3>
+                        <p>Join us for a day of athletic competitions and team spirit. Students will participate in various track and field events, showcasing their physical abilities and sportsmanship. Parents are encouraged to attend and cheer for their children.</p>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <div class="event-image">
+                        <img src="/images/pta.svg" alt="Parent-Teacher Conference">
+                    </div>
+                    <div class="event-content">
+                        <div class="event-date">
+                            <span class="day">22</span>
+                            <span class="month">May</span>
+                        </div>
+                        <h3>Parent-Teacher Conference</h3>
+                        <p>Discuss your child's progress and academic goals with our teachers. This is an excellent opportunity to gain insights into your child's strengths and areas for improvement. Please schedule your appointment in advance to ensure availability.</p>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <div class="event-image">
+                        <img src="/images/craft.svg" alt="Science Fair">
+                    </div>
+                    <div class="event-content">
+                        <div class="event-date">
+                            <span class="day">05</span>
+                            <span class="month">Jun</span>
+                        </div>
+                        <h3>Science Fair</h3>
+                        <p>Explore innovative projects and experiments by our talented students. The fair will showcase a wide range of scientific disciplines, from biology to physics. This event is open to all parents and community members interested in supporting young scientists.</p>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <div class="event-image">
+                        <img src="/images/visitation-day.jpg" alt="Visitation Day">
+                    </div>
+                    <div class="event-content">
+                        <div class="event-date">
+                            <span class="day">12</span>
+                            <span class="month">Jun</span>
+                        </div>
+                        <h3>Visitation Day</h3>
+                        <p>Parents are invited to visit the school and spend time with their children. This is a great opportunity to observe classroom activities, interact with teachers, and see your child's learning environment firsthand. Light refreshments will be provided.</p>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <div class="event-image">
+                        <img src="/images/2023 Queen Dancers 1.svg" alt="Music, Dance & Drama">
+                    </div>
+                    <div class="event-content">
+                        <div class="event-date">
+                            <span class="day">19</span>
+                            <span class="month">Jun</span>
+                        </div>
+                        <h3>Music, Dance & Drama</h3>
+                        <p>Experience the artistic talents of our students in this spectacular showcase. The event will feature musical performances, dance routines, and dramatic presentations from students across all grade levels. Come support our young artists and enjoy an evening of entertainment.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <section id="calendar" class="calendar-section">
+                <div class="container">
+                    <h2 class="section-title">School Calendar</h2>
+                    <div class="calendar-content">
+                        <div class="calendar-info">
+                            <p class="calendar-description">
+                                Stay informed about important dates, events, and holidays throughout the academic year. Our comprehensive school calendar helps you and your child plan ahead and stay organized.
+                            </p>
+                            <ul class="calendar-features">
+                                <li><i class="fas fa-check-circle"></i> Academic term dates</li>
+                                <li><i class="fas fa-check-circle"></i> School holidays and breaks</li>
+                                <li><i class="fas fa-check-circle"></i> Exam schedules</li>
+                                <li><i class="fas fa-check-circle"></i> Parent-teacher meetings</li>
+                                <li><i class="fas fa-check-circle"></i> Special events and celebrations</li>
+                            </ul>
+                            <a href="#" class="download-button">
+                                <i class="fas fa-calendar-alt"></i> Download School Calendar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section id="announcements" class="announcements">
+        <div class="container">
+            <h2 class="section-title">Important Announcements</h2>
+            <div class="announcements-grid">
+                <div class="announcement-item">
+                    <div class="announcement-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Summer Break Dates</h3>
+                    <p>The school will be closed for summer break from June 15th to August 15th.</p>
+                </div>
+                <div class="announcement-item">
+                    <div class="announcement-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>New Curriculum</h3>
+                    <p>We're introducing an enhanced STEM curriculum for the upcoming academic year.</p>
+                </div>
+                <div class="announcement-item">
+                    <div class="announcement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Academic Achievement</h3>
+                    <p>Congratulations to our students for their outstanding performance in the national exams!</p>
+                </div>
+                <div class="announcement-item">
+                    <div class="announcement-icon">
+                        <i class="fas fa-hard-hat"></i>
+                    </div>
+                    <h3>Campus Renovation</h3>
+                    <p>Our science labs are undergoing renovation to provide state-of-the-art facilities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="school-circular" class="school-circular">
+        <div class="container">
+            <h2 class="section-title">End of Term Circular</h2>
+            <div class="circular-content">
+                <p class="circular-description">
+                    Our end of term circular provides important information about exam schedules, 
+                    report card distribution, upcoming events, and preparations for the next term. 
+                    Please download and review this document to stay informed about our school's 
+                    activities and expectations.
+                </p>
+                <a href="#" class="download-button">
+                    <i class="fas fa-download"></i> Download Circular
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="medical-form" class="medical-form">
+        <div class="container">
+            <h2 class="section-title">Student Medical Form</h2>
+            <div class="form-container">
+                <div class="form-content">
+                    <p class="form-description">
+                        The children medical form is a crucial document that helps us ensure the health and safety of your child while at school. 
+                        This form includes important information about your child's medical history, allergies, medications, and emergency contacts. 
+                        Please download, complete, and return this form to the school nurse as soon as possible.
+                    </p>
+                    <a href="#" class="download-button">
+                        <i class="fas fa-file-medical"></i> Download Medical Form
+                    </a>
+                </div>
+                <div class="form-image">
+                    <img src="/images/nurse 1.svg" alt="Medical Form">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <%- include('partials/footer') %>
+
+    <script src="js/resources.js"></script>
+</body>
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pearlworth Foundation School</title>
+        <link rel="stylesheet" href="/css/School_life.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="/images/logo.svg" type="image/svg+xml">
+    </head>
+    <body>
+        <%- include('partials/header') %>
+
+        <!-- Hero section -->
+        <section class="hero">
+            <div class="hero-content">
+                <!-- Text removed -->
+            </div>
+        </section>
+
+        <!-- Daily Schedule Section -->
+        <section class="daily-schedule">
+            <div class="daily-schedule-container">
+                <h2>Daily Schedule</h2>
+                <p class="daily-schedule-description">Our structured daily routine ensures that students have a balanced and productive day, fostering both academic growth and personal development.</p>
+                <ul class="schedule-list">
+                    <li class="schedule-item">
+                        <span class="schedule-time">8:00 AM</span>
+                        <div class="schedule-activity">
+                            <h3>Morning Assembly</h3>
+                            <p>Start the day with announcements and inspiration</p>
+                        </div>
+                    </li>
+                    <li class="schedule-item">
+                        <span class="schedule-time">8:30 AM</span>
+                        <div class="schedule-activity">
+                            <h3>First Period</h3>
+                            <p>Core subject classes begin</p>
+                        </div>
+                    </li>
+                    <li class="schedule-item">
+                        <span class="schedule-time">10:30 AM</span>
+                        <div class="schedule-activity">
+                            <h3>Break Time</h3>
+                            <p>Snack and short recess</p>
+                        </div>
+                    </li>
+                    <li class="schedule-item">
+                        <span class="schedule-time">11:00 AM</span>
+                        <div class="schedule-activity">
+                            <h3>Second Period</h3>
+                            <p>Continued core subject classes</p>
+                        </div>
+                    </li>
+                    <li class="schedule-item">
+                        <span class="schedule-time">1:00 PM</span>
+                        <div class="schedule-activity">
+                            <h3>Lunch Break</h3>
+                            <p>Nutritious meal and socializing time</p>
+                        </div>
+                    </li>
+                    <li class="schedule-item">
+                        <span class="schedule-time">2:00 PM</span>
+                        <div class="schedule-activity">
+                            <h3>Afternoon Activities</h3>
+                            <p>Extracurricular classes and sports</p>
+                        </div>
+                    </li>
+                    <li class="schedule-item">
+                        <span class="schedule-time">3:30 PM</span>
+                        <div class="schedule-activity">
+                            <h3>Dismissal</h3>
+                            <p>End of the school day</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="schedule-highlights">
+                    <div class="highlight-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>8 Hours</h3>
+                        <p>Full day of learning</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-utensils"></i>
+                        <h3>Balanced Meals</h3>
+                        <p>Nutritious breakfast and lunch</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-running"></i>
+                        <h3>Physical Activity</h3>
+                        <p>Daily sports and exercise</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-palette"></i>
+                        <h3>Creative Time</h3>
+                        <p>Arts and extracurriculars</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Activities Section -->
+        <section class="activities" id="activities">
+            <div class="activities-container">
+                <h2>School Activities</h2>
+                <p class="activities-description">At Pearlworth Foundation School, we offer exciting activities to enrich our students' educational experience and foster their personal growth.</p>
+                
+                <!-- Football Activity -->
+                <div class="activity-spotlight">
+                    <div class="activity-image">
+                        <img src="/images/football.svg" alt="Football" class="football-image">
+                    </div>
+                    <div class="activity-content">
+                        <h3>Football</h3>
+                        <p>Our football program is more than just a game – it's a journey of passion, teamwork, and personal growth. Students learn the importance of discipline, strategy, and sportsmanship both on and off the field.</p>
+                        <ul class="activity-features">
+                            <li><i class="fas fa-users"></i> Build lasting friendships</li>
+                            <li><i class="fas fa-dumbbell"></i> Improve physical fitness</li>
+                            <li><i class="fas fa-brain"></i> Develop strategic thinking</li>
+                            <li><i class="fas fa-trophy"></i> Compete in local tournaments</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Swimming Activity -->
+                <div class="activity-spotlight swimming-spotlight">
+                    <div class="swimming-content">
+                        <h3 class="swimming-title">Swimming</h3>
+                        <p class="swimming-description">Our swimming program is designed to build confidence, improve physical fitness, and teach essential water safety skills. Students learn proper techniques and enjoy the benefits of this low-impact, full-body workout.</p>
+                        <div class="swimming-image-container">
+                            <img src="/images/swimming.svg" alt="Swimming Activity" class="swimming-image">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Swimming Details -->
+                <div class="swimming-details">
+                    <div class="swimming-points">
+                        <ul class="swimming-features">
+                            <li><i class="fas fa-smile-beam"></i> Splash and play with new friends</li>
+                            <li><i class="fas fa-heart"></i> Feel strong and healthy in the water</li>
+                            <li><i class="fas fa-shield-alt"></i> Learn to be safe and confident swimmers</li>
+                            <li><i class="fas fa-swimmer"></i> Learn different swimming strokes</li>
+                            <li><i class="fas fa-medal"></i> Join fun swimming races and games</li>
+                        </ul>
+                    </div>
+                    <div class="swimming-image-right">
+                        <img src="/images/swim.svg" alt="Swimming Competition" class="swimming-image-large">
+                    </div>
+                </div>
+
+                <!-- Music, Dance, and Drama Activity -->
+                <div class="activity-spotlight">
+                    <div class="activity-content">
+                        <div class="moving-title-container">
+                            <h3 class="moving-title">Music, Dance, and Drama</h3>
+                        </div>
+                        <p>Our Music, Dance, and Drama program nurtures creativity, self-expression, and confidence in students. Through a variety of engaging activities, children explore different art forms and develop their artistic talents.</p>
+                    </div>
+                </div>
+
+                <!-- Performing Arts Details -->
+                <div class="performing-arts-details">
+                    <div class="performing-arts-images">
+                        <img src="/images/mdd.svg" alt="Music Performance" class="performing-arts-image">
+                        <img src="/images/yeah 1.svg" alt="Drama Performance" class="performing-arts-image">
+                        <img src="/images/2023 Queen Dancers 1.svg" alt="Dance Performance" class="performing-arts-image">
+                        
+
+
+                        <div class="performing-arts-items">
+                            <div class="performing-arts-item">
+                                <img src="/images/birthday 1.svg" alt="Music Performance" class="performing-arts-image">
+                                <div class="performing-arts-icon">
+                                    <i class="fas fa-birthday-cake"></i>
+                                </div>
+                                <div class="performing-arts-text">
+                                    <h4>Birthday Celebration</h4>
+                                    <p>Students enjoy a festive atmosphere with music, games, and cake, celebrating their special day with classmates and teachers.</p>
+                                    <p class="additional-info">These celebrations foster a sense of community and make each student feel valued and special on their birthday.</p>
+                                </div>
+                            </div>
+                            <div class="performing-arts-item">
+                                <img src="/images/craft.svg" alt="Drama Performance" class="performing-arts-image">
+                                <div class="performing-arts-icon">
+                                    <i class="fas fa-paint-brush"></i>
+                                </div>
+                                <div class="performing-arts-text">
+                                    <h4>Crafting Activities</h4>
+                                    <p>Our crafting program encourages students to explore different materials and techniques, building creativity and fine motor skills.</p>
+                                    <p class="additional-info">Through various projects, students learn problem-solving skills, enhance their artistic abilities, and develop patience and attention to detail.</p>
+                                </div>
+                            </div>
+                            <div class="performing-arts-item">
+                                <img src="/images/sports 1.svg" alt="Dance Performance" class="performing-arts-image">
+                                <div class="performing-arts-icon">
+                                    <i class="fas fa-running"></i>
+                                </div>
+                                <div class="performing-arts-text">
+                                    <h4>Sports Day</h4>
+                                    <p>Our annual Sports Day encourages physical activity, teamwork, and healthy competition among students, fostering a spirit of sportsmanship and athleticism.</p>
+                                    <p class="additional-info">This event not only promotes physical fitness but also teaches valuable life lessons about perseverance, goal-setting, and the importance of a healthy lifestyle.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <section class="trips-and-tours">
+                        <div class="trips-content">
+                            <h3 class="trips-title">School Trips and Tours</h3>
+                            <p class="trips-description">Our School Trips and Tours program offers exciting opportunities for students to explore the world beyond the classroom. These educational adventures combine learning with fun, creating unforgettable experiences.</p>
+                            <div class="trips-details">
+                                <div class="trips-documentation">
+                                    <h4>Outdoor Fun on School Trip</h4>
+                                    <p>Our students enjoy a fun-filled day outdoors during one of our exciting school trips. From riding toy vehicles to engaging in playful activities, these moments help promote physical development, teamwork, and creativity. At Pearlworth Foundation School, we believe in creating joyful learning experiences both inside and outside the classroom.</p>
+                                </div>
+                                <div class="trips-image">
+                                    <img src="/images/motor.svg" alt="Students on a school trip" class="trips-photo">
+                                </div>
+                            </div>
+                            
+                            <!-- New section with image on the left and documentation on the right -->
+                            <div class="trips-details">
+                                <div class="trips-image">
+                                    <img src="/images/playground.svg" alt="Students enjoying outdoor activities" class="trips-photo">
+                                </div>
+                                <div class="trips-documentation">
+                                    <h4>Playground Adventures on School Trips</h4>
+                                    <p>Smiles and laughter light up our playground during school trips, as students engage in interactive and fun activities. At Pearlworth Foundation School, we believe in balancing academic growth with recreational joy, providing our students with enriching experiences that foster creativity, happiness, and social development.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <%- include('partials/footer') %>
+
+        <script src="/js/School_life.js" defer></script>
+    </body>
+</html>
